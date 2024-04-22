@@ -96,7 +96,8 @@ endmodule
 
 
 **RTL LOGIC FOR FLIPFLOPS**
-<img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/1c660487-cc7b-45f8-958c-9296cdce945a">
+<img width="960" alt="RTL sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/52c07e28-f65a-43d4-8531-73b70b27296e">
+
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 <img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/784f26d6-71de-46fb-95bc-9661a1382518">
