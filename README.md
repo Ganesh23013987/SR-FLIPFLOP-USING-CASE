@@ -90,7 +90,8 @@ endmodule
 <img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/1c660487-cc7b-45f8-958c-9296cdce945a">
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-<img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/8c63663d-34a8-41f6-addc-d8cdf943600c">
+<img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/600551c3-7523-448d-95b9-d52dd1dec478">
+
 
 
 **RESULTS**
