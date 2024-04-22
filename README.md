@@ -59,6 +59,8 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
    The output q_bar is complemented (~q), i.e., the logical negation of q.
 
 
+
+
 **PROGRAM**
 
 Program for flipflops and verify its truth table in quartus using Verilog programming.
