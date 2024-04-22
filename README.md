@@ -37,15 +37,16 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 1. Inputs and Outputs: 
    The module sr_flipflop has inputs s, r, clk, and reset, and outputs q and q_bar.
    
-3. Clocked Process:
+2. Clocked Process:
    The always @(posedge clk) block defines a clocked process sensitive to the positive edge of the clock signal.
    
-4. Reset Handling:
+3. Reset Handling:
    If the reset signal is asserted (logic low), the flip-flop resets. In this case, the output q is forced to 0.
    
-5. State Transition:
+4. State Transition:
    If the reset signal is de-asserted (logic high), the flip-flop behaves according to the inputs s (set) and r (reset). It uses a case statement to determine the behavior 
    based on the combination of s and r:
+   
    If s=0 and r=1 (set condition), the output q is set to 0.
    If s=1 and r=0 (reset condition), the output q is set to 1.
    If s=1 and r=1 (invalid condition), the output q enters an indeterminate state (x).
@@ -94,6 +95,7 @@ endmodule
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 <img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/784f26d6-71de-46fb-95bc-9661a1382518">
+
 
 
 **RESULT**
