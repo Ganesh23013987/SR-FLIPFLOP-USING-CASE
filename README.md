@@ -48,8 +48,11 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
    based on the combination of s and r:
    
    If s=0 and r=1 (set condition), the output q is set to 0.
+   
    If s=1 and r=0 (reset condition), the output q is set to 1.
+   
    If s=1 and r=1 (invalid condition), the output q enters an indeterminate state (x).
+   
    For all other combinations of s and r, the output q remains unchanged.
    
 6. Output Complementation:
