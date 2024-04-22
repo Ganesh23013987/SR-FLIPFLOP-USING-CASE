@@ -37,14 +37,13 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 1. Inputs and Outputs: 
    The module sr_flipflop has inputs s, r, clk, and reset, and outputs q and q_bar.
    
-2. Clocked Process:
+3. Clocked Process:
    The always @(posedge clk) block defines a clocked process sensitive to the positive edge of the clock signal.
    
-3. Reset Handling:
+4. Reset Handling:
    If the reset signal is asserted (logic low), the flip-flop resets. In this case, the output q is forced to 0.
-
-
-4. State Transition:
+   
+5. State Transition:
    If the reset signal is de-asserted (logic high), the flip-flop behaves according to the inputs s (set) and r (reset). It uses a case statement to determine the behavior 
    based on the combination of s and r:
    If s=0 and r=1 (set condition), the output q is set to 0.
@@ -52,9 +51,8 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
    If s=1 and r=1 (invalid condition), the output q enters an indeterminate state (x).
    For all other combinations of s and r, the output q remains unchanged.
    
-5. Output Complementation:
+6. Output Complementation:
    The output q_bar is complemented (~q), i.e., the logical negation of q.
-
 
 
 **PROGRAM**
@@ -95,8 +93,7 @@ endmodule
 <img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/1c660487-cc7b-45f8-958c-9296cdce945a">
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
-<img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/600551c3-7523-448d-95b9-d52dd1dec478">
-
+<img width="960" alt="sr_flipflop" src="https://github.com/Ganesh23013987/SR-FLIPFLOP-USING-CASE/assets/147473768/784f26d6-71de-46fb-95bc-9661a1382518">
 
 
 **RESULT**
